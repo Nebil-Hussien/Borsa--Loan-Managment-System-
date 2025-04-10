@@ -1,0 +1,13 @@
+{
+    "name": "CBE",
+    "alias": "cbe",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CBE\\Providers\\CBEServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,14 @@
+@use "sass:math";
+.grid-stack > .grid-stack-item {
+
+  $gridstack-columns: 12;
+
+  min-width: math.div(100%, $gridstack-columns);
+
+  @for $i from 0 through $gridstack-columns {
+    &[gs-w='#{$i}'] { width: math.div(100%, $gridstack-columns) * $i; }
+    &[gs-x='#{$i}'] { left: math.div(100%, $gridstack-columns) * $i; }
+    &[gs-min-w='#{$i}'] { min-width: math.div(100%, $gridstack-columns) * $i; }
+    &[gs-max-w='#{$i}'] { max-width: math.div(100%, $gridstack-columns) * $i; }
+  }
+}

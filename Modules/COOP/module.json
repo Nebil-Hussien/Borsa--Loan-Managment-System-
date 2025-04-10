@@ -1,0 +1,13 @@
+{
+    "name": "COOP",
+    "alias": "coop",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\COOP\\Providers\\COOPServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

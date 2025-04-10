@@ -1,0 +1,13 @@
+{
+    "name": "DashboardCOOP",
+    "alias": "dashboardcoop",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DashboardCOOP\\Providers\\DashboardCOOPServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "DashboardNGO",
+    "alias": "dashboardngo",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DashboardNGO\\Providers\\DashboardNGOServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
